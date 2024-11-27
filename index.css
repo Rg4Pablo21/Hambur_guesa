@@ -17,6 +17,8 @@ main{
 .pan-superior {
     background-color: rgb(232, 173, 64);
     border: 1px solid black;
+    box-shadow: inset 10 10px 15px rgba(0, 0, 0, 0.2); 
+
 
     text-align: center;
     font-weight: bold;
@@ -26,7 +28,7 @@ main{
     border-radius: 60px 60px 20px 20px;
     grid-column: 5/10;
     grid-row: 4/5;
-    position: relative;  /* Necesario para posicionar el pseudo-elemento */
+    
 }
 .pan-inferior{
     background-color: rgb(232, 173, 64);
@@ -52,7 +54,6 @@ main{
 .queso {
     background-color: yellow;
     border: 1px solid black;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 
 
     text-align: center;
@@ -66,7 +67,6 @@ main{
 .queso2{
     background-color: yellow;
     border: 1px solid black;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 
     text-align: center;
     font-weight: bold;
@@ -79,7 +79,6 @@ main{
 .queso3{
     background-color: yellow;
     border: 1px solid black;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 
     text-align: center;
     font-weight: bold;
@@ -91,7 +90,6 @@ main{
 .queso4{
     background-color: yellow;
     border: 1px solid black;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 
     text-align: center;
     font-weight: bold;
@@ -133,11 +131,15 @@ main{
     grid-row: 6/7;
 }
 .cebolla{
-    background-color: rgb(215, 42, 189);
+    background-color: rgb(127, 3, 108);
     border: 1px solid black;
+    height: 40px;
+
 
     text-align: center;
     font-weight: bold;
+    border-radius: 5px;
+
     color: rgb(0, 0, 0);  
     grid-column: 5/10;
     grid-row: 10/11; 
