@@ -13,6 +13,8 @@ import { crearbola2 } from './albondiga2.js';
 import { crearbola3 } from './albondiga3.js';
 import { crearplato } from './plato.js';
 import { crearcarne1 } from './carne1.js';
+import { crearminipan } from './minipan.js';
+import { crearminipan2 } from './minipan2.js';
 
 
 function crearHamburguesa() {
@@ -31,6 +33,8 @@ function crearHamburguesa() {
     crearbola3();
     crearplato();
     crearcarne1();
+    crearminipan();
+    crearminipan2();
  
 }
 
